@@ -1,0 +1,14 @@
+.formacao{
+    padding: 10px;
+    background-color: #0e77a82d ;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .curso{
+    padding: 0 10px;
+  }
+  
+  .data{
+    font-size: 0.8rem;
+  }

@@ -1,0 +1,21 @@
+.habilidades{
+    padding: 10px;
+    background-color: #0e77a82d ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.output{
+    padding: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 50%;
+    border-width: 0;
+}

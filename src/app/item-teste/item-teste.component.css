@@ -1,0 +1,13 @@
+.resumo {
+    padding: 10px;
+    background-color: #0e77a82d ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p{
+  font-size: 0.95rem;
+  margin: 10px;
+  text-align: justify;
+  text-indent: 0.8rem;
+}
