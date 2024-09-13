@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ItemProjeto2Component } from './item-projeto2/item-projeto2.component';
@@ -14,18 +13,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-=======
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { ItemOutputComponent } from './item-output/item-output.component';
-
-const routes: Routes = [
-  {path: 'conecta', component:ItemOutputComponent},
-];
-
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
->>>>>>> 854de8d61ddb495d6d88b522355779a1cf50aa89
