@@ -1,0 +1,15 @@
+<h1>LinkedMe</h1>
+<app-item-detail [nome]="nome"></app-item-detail>
+<app-item-teste [tit_sobre]="tit_sobre" [curso1]="curso1" [curso2]="curso2"></app-item-teste>
+<app-item-formacao [tit_formacao]="tit_formacao" [curso1]="curso1" [curso2]="curso2"></app-item-formacao>
+<app-item-output></app-item-output>
+
+<div class="butproj">
+  <button mat-button [matMenuTriggerFor]="menu"> Selecione a página</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink='/conecta' routerLinkActivate='active'> Demon Slayer</button>
+    <button mat-menu-item routerLink='/proj2' routerLinkActivate='active'> Ink Vibes</button>
+    <button mat-menu-item routerLink='/' routerLinkActivate='active'> Início</button>
+  </mat-menu>
+  <router-outlet></router-outlet>
+</div>
