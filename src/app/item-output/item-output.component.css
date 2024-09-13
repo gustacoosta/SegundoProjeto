@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .habilidades{
     padding: 10px;
     background-color: #0e77a82d ;
@@ -18,4 +19,26 @@ input {
     border-radius: 5px;
     width: 50%;
     border-width: 0;
+=======
+.habilidades{
+    padding: 10px;
+    background-color: #0e77a82d ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.output{
+    padding: 10px;
+}
+
+button{
+    margin: 10px;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 5px;
+    width: 50%;
+    border-width: 0;
+>>>>>>> 854de8d61ddb495d6d88b522355779a1cf50aa89
 }

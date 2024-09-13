@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Global Variables */
 :root {
     --main-color: #0e77a8;
@@ -107,3 +108,112 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+=======
+/* Global Variables */
+:root {
+    --main-color: #0e77a8;
+    --secondary-color: #124d68;
+    --button-bg-color: rgb(116, 173, 230);
+    --button-hover-color: #cfd8dc;
+    --button-disabled-bg-color: #eee;
+    --button-disabled-text-color: #aaa;
+    --link-color: #607d8b;
+    --link-hover-color: #039be5;
+    --background-color: #eee;
+  }
+  
+  /* Global Styles */
+  h1,
+  h2,
+  h3 {
+    color: var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  hr {
+    border-color: var(--secondary-color);
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Cambria, Georgia;
+    font-size: 1rem;
+    color: rgb(44, 9, 9);
+    background-color: var(--background-color);
+  }
+  
+  button {
+    font-family: Arial;
+    background-color: var(--button-bg-color);
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  button:disabled {
+    background-color: var(--button-disabled-bg-color);
+    color: var(--button-disabled-text-color);
+    cursor: auto;
+  }
+  
+  /* Navigation link styles */
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: var(--background-color);
+    border-radius: 4px;
+  }
+  
+  nav a:visited,
+  nav a:link {
+    color: var(--link-color);
+  }
+  
+  nav a:hover {
+    color: var(--link-hover-color);
+    background-color: var(--button-hover-color);
+  }
+  
+  nav a.active {
+    color: var(--link-hover-color);
+  }
+  
+  div {
+    max-width: 60vw;
+  }
+  
+  /* Default font for everything else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+>>>>>>> 854de8d61ddb495d6d88b522355779a1cf50aa89
