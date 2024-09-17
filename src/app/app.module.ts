@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { ItemProjetosComponent } from './item-projetos/item-projetos.component';
 import { ItemProjeto2Component } from './item-projeto2/item-projeto2.component';
+import { ConectaComponent } from './conecta/conecta.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ItemProjeto2Component } from './item-projeto2/item-projeto2.component';
     ItemOutputComponent,
     ItemFormacaoComponent,
     ItemProjetosComponent,
-    ItemProjeto2Component
+    ItemProjeto2Component,
+    ConectaComponent
   ],
   imports: [
     BrowserModule,
