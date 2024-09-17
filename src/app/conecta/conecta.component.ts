@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { ServerService } from '../server.service';
 import { valores,valoresPost } from './Model/respostaModel';
 
+
 @Component({
   selector: 'app-conecta',
   templateUrl: './conecta.component.html',
-  styleUrls: ['./conecta.component.css']
+  styleUrl: './conecta.component.css'
 })
 export class ConectaComponent {
   //criar um contrutor para chamar o serviço
@@ -49,5 +50,4 @@ export class ConectaComponent {
     })
     
   }
-
 }
