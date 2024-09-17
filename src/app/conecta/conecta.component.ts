@@ -8,6 +8,7 @@ import { valores,valoresPost } from './Model/respostaModel';
   templateUrl: './conecta.component.html',
   styleUrl: './conecta.component.css'
 })
+
 export class ConectaComponent {
   //criar um contrutor para chamar o serviço
   //ServerService é o serviço externo - link do Reqres

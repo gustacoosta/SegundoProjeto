@@ -1,12 +1,12 @@
 <br/><br/>
-<p>Aqui iremos conectar o back-end</p>
+<p>Você conhece essas pessoas: </p>
 <hr/>
 
 <br/>
-<button (click)="chamadaBack()">Teste do Back Get</button>
+<button (click)="chamadaBack()">Buscar sugestão: </button>
 <br/>
 <ul *ngFor="let result of val" >    
-    <li>{{result.id}}- {{result.first_name}}  {{result.last_name}} </li>
+    <li><img src="{{result.avatar}}"> {{result.first_name}}  {{result.last_name}} </li>
 </ul>
 <hr/>
 

@@ -14,6 +14,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { ItemProjetosComponent } from './item-projetos/item-projetos.component';
 import { ItemProjeto2Component } from './item-projeto2/item-projeto2.component';
 import { ConectaComponent } from './conecta/conecta.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
@@ -28,10 +30,12 @@ import { ConectaComponent } from './conecta/conecta.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     MatMenuModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration(),
