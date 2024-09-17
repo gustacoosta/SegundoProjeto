@@ -7,9 +7,9 @@
 <div class="butproj">
   <button mat-button [matMenuTriggerFor]="menu"> Selecione a página</button>
   <mat-menu #menu="matMenu">
-    <button mat-menu-item routerLink='/conecta' routerLinkActivate='active'> Demon Slayer</button>
-    <button mat-menu-item routerLink='/proj2' routerLinkActivate='active'> Ink Vibes</button>
     <button mat-menu-item routerLink='/' routerLinkActivate='active'> Início</button>
+    <button mat-menu-item routerLink='/proj' routerLinkActivate='active'> Demon Slayer</button>
+    <button mat-menu-item routerLink='/proj2' routerLinkActivate='active'> Ink Vibes</button>
     <button mat-menu-item routerLink="/conecta" routerLinkActive="active">Conectar</button>
   </mat-menu>
   <router-outlet></router-outlet>

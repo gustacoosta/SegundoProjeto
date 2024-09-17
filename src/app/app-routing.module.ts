@@ -6,7 +6,7 @@ import { ConectaComponent } from './conecta/conecta.component';
 
 
 const routes: Routes = [
-  {path: 'conecta', component:ItemProjetosComponent},
+  {path: 'proj', component:ItemProjetosComponent},
   {path: 'proj2', component:ItemProjeto2Component},
   {path: 'conecta', component:ConectaComponent},
 ];
